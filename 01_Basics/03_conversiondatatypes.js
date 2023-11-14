@@ -47,6 +47,8 @@ console.log(boolanConverted);
 
 // Convert Number To String
 
+/* 
+
 let randomNumber = undefined;
 
 console.log(randomNumber);
@@ -58,5 +60,42 @@ let stringConverter = String(randomNumber);
 console.log(stringConverter);
 
 console.log(typeof stringConverter);
+
+*/
+
+// Operations in JS
+
+// let str1 = "Hello";
+
+// let str2 = " Gaurav";
+
+// let str3 = str1 + str2;
+
+// console.log(str3);
+
+// console.log(1 + "2");
+
+// console.log("1" + 2 + 8);
+// console.log(2 + 8 + "1");
+
+// Prefix and Post Fix
+
+// In whenever prefix increment is used it gets applied on both the varaibales
+
+let a = 5;
+
+let b = ++a;
+
+console.log(a);
+console.log(b);
+
+// When the post fix incrment is used only the inital variable get affected whereas the rest remains same
+
+let c = 45;
+
+let d = c++;
+
+console.log(c);
+console.log(d);
 
 
