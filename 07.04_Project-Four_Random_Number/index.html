@@ -12,6 +12,30 @@
 
         <h1>Random Number Guess</h1>
 
+        <p>Try and guess a random number between 1 and 100.</p>
+
+        <p>You have 10 attemps to guess the right number.</p>
+
+        <form action="form">
+
+            <label for="guessField">Guess A Number</label>
+            <input type="text" id="guessField" placeholder="Enter any number 1 to 100">
+            <div>
+                <input type="submit" id="subt" value="Submit Guess">
+            </div>
+
+        </form>
+
+        <div class="resultParas">
+
+            <p>Previous Guess: <span class="guesses"></span></p>
+
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+
+            <p class="loworHigh"></p>
+
+        </div>
+
     </div>
     
     <script src="js/script.js"></script>
