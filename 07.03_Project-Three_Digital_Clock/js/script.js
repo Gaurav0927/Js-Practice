@@ -2,7 +2,7 @@ const clock = document.getElementById("clock");
 
 setInterval(function (){
 
-    const date = new Date();
+    let date = new Date();
     
     // console.log(date);
 
